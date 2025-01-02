@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="templete7.css">
+    <title>Resume Builder</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container ">
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-primary" href="#">Resume Builder</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-primary" id="offcanvasNavbarLabel">Resume Builder</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">more templetes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <!--form-invoke-btn-->>
+    <div class="container-fluid">
+        <button class="btn btn-primary button" id="button">Edit this templete</button>
+        <!-- resume-templete -->
+
+        <div class="column-invoke">
+            <div class="form-main mt-5" id="form-main">
+                <form onsubmit="return false;" style="   background: rgba(243, 241, 241, 0.936)">
+                    <div class=" form-group text center text-primary ">
+                        <h4 class="form-h4">Enter Your Details</h4>
+                    </div>
+                    <div class="form-group">
+                        <h6 class="text-muted ">Note:Use Spaces in Each Words</h6>
+                    </div>
+                    <div class=" form-group">
+                        <label for="usernameinput" class="text-primary
+                    ">Name</label>
+                        <input type="text" class="form-control" id="usernameinput" placeholder="Enter your Name">
+                        <small class="form-text text-muted">Use uppercase letters</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="jobroleinput" class="text-primary
+                    ">Your job role</label>
+                        <input type="text" class="form-control" id="jobroleinput" placeholder="Enter Job Role">
+                    </div>
+                    <div class="form-group">
+                        <h6 class="text-primary">Contact Details</h6>
+                        <div class="row justify-content-start align-items-center g-2">
+                            <div class="col-md"><label for="user-contact-phone" class="text-primary
+                            ">Phone</label>
+                                <input type="number" class="form-control" id="user-contact-phone"
+                                    placeholder="Enter Phone" style="background: #faf9f6;">
+                            </div>
+                            <div class=" col-md "><label for=" user-contact-email" class="text-primary
+                            ">Email</label>
+                                <input type="text" class="form-control" id="user-contact-email"
+                                    placeholder="Enter Email" style="background: #faf9f6;">
+                            </div>
+                            <div class=" col-md "><label for=" user-contact-link" class="text-primary
+                            ">LinkedIn</label>
+                                <input type="text" class="form-control" id="user-contact-link"
+                                    placeholder="Enter LinkedIn" style="background: #faf9f6;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" form-group">
+                        <label for="user-profile-input" class="text-primary
+                    ">Profile</label>
+                        <div class="row">
+                            <div class="col-10"> <input type="text" class="form-control" id="user-profile-input"
+                                    placeholder="Enter your profile" style="background: #faf9f6;" /></div>
+                            <div class=" col"><button class="btn btn-primary profile-submit">Enter</button></div>
+
+                            <small id="helpId" class="text-muted">About yourself | If profile disappered,it
+                                will
+                                be
+                                displayed after submition</small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="userskillsinput" class="form-label text-primary
+                        ">Skills</label>
+                        <div class="row">
+                            <div class="col-10"><input type="text" class="form-control" name="" id="userskillsinput"
+                                    placeholder="Enter your skills" style=" background: #faf9f6;" /></div>
+                            <div class="col"><button class="btn btn-primary skills-submit">Enter</button>
+                            </div>
+                        </div>
+                        <small class="text-muted">Enter skills one by one</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="userexperienceinput" class="form-label text-primary
+                    ">Experience</label>
+                        <div class="row">
+                            <div class="col-10"> <input type="text" name="" id="userexperienceinput"
+                                    class="form-control" placeholder="Enter Experience" style="background: #faf9f6; " />
+                            </div>
+                            <div class="col"><button class="btn btn-primary experience-submit">Enter</button>
+                            </div>
+                            <small class="text-muted">Enter Experience one by one</small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="usereducationinput" class=" text-primary
+                    ">Education</label>
+                        <input type="text" name="" id="usereducationinput" class=" form-control"
+                            placeholder="Enter Education" />
+                        <small id="helpId" class="text-muted">Ex:School,College,Interships etc..,</small>
+                    </div>
+                    <div class="form-group submit-buttons">
+                        <button class="add btn btn-primary">Confirm</button>
+                        <button class="cancel btn btn-danger">Cancel</button>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="resume-main mt-5 ">
+                <div class="heading  " style="background-color: black;">
+                    <div class="row justify-content-center align-items-center main-details "
+                        style="background-color: black;">
+                        <div class="col">
+
+                            <h1 id=" " class="user-name display-6  text-white" style="font-weight: bolder;">MIRA
+                                KARLSSON</h1>
+
+                        </div>
+                        <div class="col">
+                            <h5 id="" class="user-job-description text-white display-7 h5 " style="">SOCIAL MEDIA
+                                MARKETING
+                                SPECIALIST
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contacts -->
+                <div class=" row justify-content-center g-2 main1 ">
+                    <h6 class="col" style="padding: 15px;  border-bottom: 1px solid black;">
+                        <span class=" col-4 mt-2 user-phone ">816-555-0146 </span><span>&bull;</span>
+                        <span class="mt-2 col-4 user-email  ">mira@example.com </span><span>&bull;</span>
+                        <span class="mt-2 col-4"><a href="" class="user-website"> www.example.com</a></span>
+                    </h6>
+                </div>
+                <!-- projects -->
+                <div class=" main1" style="padding: 5px 25px;  border-bottom: 1px solid ">
+                    <h5>PROFILE</h5>
+                    <h6 class="mt-2 user-profile">Social Media Marketing Specialist, utilizing my 5+ years of
+                        experience in
+                        creating
+                        and executing successful social media campaigns, developing engaging content, analyzing
+                        and
+                        reporting on campaign performance, and staying up to date with the latest trends and
+                        best
+                        practices in social media marketing. My goal is to increase brand awareness, engagement,
+                        and
+                        conversion rates while delivering exceptional results and exceeding goals for the
+                        company.
+                    </h6>
+                </div>
+
+                <div class="row justify-content-center  g-2 main2" style=" border-bottom: 1px solid black;">
+                    <div class=" main2" style=" border-bottom: 1px solid black;">
+                        <h5>SKILLS</h5>
+                        <ul id="ux">
+                            <div class="default-skills">
+                                <li id="first">
+                                    <h6 class="mt-2 user-skills">Platform expertise</h6>
+                                </li>
+                                <li>
+                                    <h6 class="mt-2 user-skills">Analytics</h6>
+                                </li>
+                                <li>
+                                    <h6 class="mt-2 user-skills">Communication</h6>
+                                </li>
+                                <li>
+                                    <h6 class="mt-2 user-skills">Creativity</h6>
+                                </li>
+                                <li>
+                                    <h6 class="mt-2 user-skills">Content creation</h6>
+                                </li>
+                                <li>
+                                    <h6 class="mt-2 user-skills">Strategic thinking</h6>
+                                </li>
+                            </div>
+                        </ul>
+                        <ul id="ux-2" style="padding: 0;">
+
+                        </ul>
+                    </div>
+                    <div class=" main2">
+                        <h5>EXPERIENCE</h5>
+                        <ul class="ex-ul" style="padding: 0;">
+                            <li class="firstlist">
+                                <h6 class="user-experience">
+                                    Social Media Marketing Specialist
+                                    20XX-20YY
+                                    Developed and executed successful social media campaigns across multiple
+                                    platforms
+                                    to
+                                    increase
+                                    brand awareness and drive traffic to the company's website. Managed and grew
+                                    the
+                                    company's
+                                    social media accounts by creating engaging content, monitoring analytics,
+                                    and
+                                    implementing
+                                    social media best practices. Collaborated with cross-functional teams to
+                                    develop
+                                    and
+                                    execute
+                                    integrated marketing campaigns that leveraged social media to meet business
+                                    objectives.
+
+                                </h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" " style="padding: 5px 12px;">
+                    <div class="row main3 justify-content-center g-2  border-bottom: 1px solid black; ">
+                        <h5>Education</h5>
+                        <h6 class="user-education">
+                            Bellows College
+                            20XX-20YY
+                            BA in Communications
+                            &nbsp;
+                            East Beringer Community College
+                            20XX-20YY
+                            AA in Communication
+                        </h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+</body>
+<script src="templete7.js">
+</script>
+<script src="/bootstrap-5.3/js/bootstrap.min.js"></script>
+<script src="/bootstrap-5.3/js/jquery.min.js"></script>
+
+
+</html>

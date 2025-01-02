@@ -1,0 +1,111 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.resume-main {
+    transition: all ease 3s;
+    border: 0.5px solid #ceaeae;
+    border-radius: 1%;
+}
+
+.resume-main {
+    background-color: white;
+}
+
+.main-details {
+    padding: 30px;
+    padding-left: 30px;
+    background: #ceaeae;
+}
+
+.main1,
+.main2,
+.main3 {
+    padding: 10px;
+
+}
+
+
+.sec {
+    border-left: solid #ceaeae 1px;
+}
+
+.profile-sec {
+    border-bottom: solid #ceaeae 1px;
+}
+
+.main3 {
+    padding: 20px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.main1>h5 {
+    width: 90px;
+    text-align: start;
+}
+
+.main2>h5 {
+    width: 90px;
+    text-align: start;
+}
+
+.main2>li {
+    list-style: none;
+}
+
+.main3>h5 {
+    width: 90px;
+    text-align: start;
+}
+
+.main2>ul>li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.form-group {
+    padding: 15px;
+    /* background: rgba(243, 241, 241, 0.936); */
+
+
+}
+
+.form-main>form {
+    border-radius: 1%;
+    background: #faf9f6;
+
+}
+
+#form-main {
+
+    display: none;
+}
+
+.form-group>input {
+    background: #faf9f6;
+}
+
+.form-h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3b71ca;
+}
+
+center>h1 {
+    font-size: 3em;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+}

@@ -1,0 +1,104 @@
+.main {
+    transition: all ease 3s;
+}
+
+h1 {
+    font-weight: bolder;
+
+}
+
+.resume-main {
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 1%;
+}
+
+.resume-main>h1 {
+    border-bottom: 3px solid black;
+}
+
+.resume-main>h5 {
+    border-bottom: 3px solid black;
+}
+
+.main1,
+.main2,
+.main3 {
+    padding: 5px 25px;
+
+}
+
+.main3 {}
+
+ul>li {
+    list-style: none;
+}
+
+.main1>h5 {
+    border-bottom: 1px solid black;
+    text-align: start;
+
+}
+
+.main2>h5 {
+    border-bottom: 1px solid black;
+    text-align: start;
+}
+
+.main2>li {
+    list-style: none;
+}
+
+.main3>h5 {
+    border-bottom: 1px solid black;
+    text-align: start;
+
+}
+
+.main2>ul>li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.form-group {
+    padding: 15px;
+    /* background: rgba(243, 241, 241, 0.936); */
+
+
+}
+
+.form-main>form {
+    border-radius: 1%;
+    background: #faf9f6;
+
+}
+
+#form-main {
+
+    display: none;
+}
+
+.form-group>input {
+    background: #faf9f6;
+}
+
+.form-h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3b71ca;
+}
+
+center>h1 {
+    font-size: 3em;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+}
