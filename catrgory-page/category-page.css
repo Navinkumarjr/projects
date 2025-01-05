@@ -1,0 +1,122 @@
+.category-hover {
+    color: gray;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.hover-opacity {
+    transition: opacity 0.3s ease;
+}
+
+.hover-opacity:hover {
+    opacity: 0.8;
+}
+
+.social-links a {
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.footer img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+    }
+}
+
+.category-hover:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.category {
+    border-bottom: 3px solid gray;
+    padding: 10px;
+
+}
+
+.template-img2 {
+    height: 250px;
+    width: 420px;
+    border-radius: 10px;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.ul>li {
+    padding: 10px;
+}
+
+.question-section {}
+
+.template-img {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.card-resume {
+    height: 400px;
+    background-color: rgb(224, 195, 202);
+    opacity: 0.5px;
+
+}
+
+.d-block:hover {
+    background-color: #666;
+    opacity: 0.5;
+}
+
+.d-block {
+    height: 400px;
+    width: auto;
+}
+
+.card-resume-big {
+    height: 250px;
+    background-color: rgb(224, 195, 202);
+    opacity: 0.5px;
+}
+
+.carousel-col {
+    padding: 20px;
+}
+
+.card-col {
+    /* margin-top: 30px; */
+    padding: 60px 0px;
+    position: sticky;
+    top: 0;
+
+}
+
+.template-img:hover {
+    filter: drop-shadow(50px, 50px, 50px, 50px, #666);
+    filter: saturate(50%);
+    border: 1px solid #666;
+}
+
+.template-img2:hover {
+    filter: drop-shadow(50px, 50px, 50px, 50px, #666);
+    border: 1px solid #666;
+    filter: blur(100%)
+}
